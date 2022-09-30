@@ -216,7 +216,7 @@ class InterractivePageState extends State<InterractivePage> {
       if (value != null) {
         setState(() {
           initialDate = value;
-          print(initialDate.toLocal());
+          // print(initialDate.difference(DateTime.now()).inDays);
         });
       }
     });
